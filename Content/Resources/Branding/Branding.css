@@ -1,0 +1,11 @@
+﻿/* MadCap-Branding */
+
+:root 
+{
+	--Primary: #D9443F;
+	--Light: #FFFFFF;
+	--Dark: #5a5a5a;
+	--Lightest: #FFFFFF;
+	--FontFamily: Arial, Avenir, Myriad;
+	--LogoImage: url('../Images/Logo.png');
+}
