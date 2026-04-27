@@ -1,4 +1,4 @@
-/// <reference path="../Scripts/jquery.js" />
+﻿/// <reference path="../Scripts/jquery.js" />
 /// <reference path="../Scripts/MadCapUtilities.js" />
 /// <reference path="../Scripts/MadCapGlobal.js" />
 /// <reference path="../Scripts/MadCapDom.js" />
@@ -77,7 +77,7 @@ $.noConflict(true);
 
 })();
 
-var helpSystemName = "index.htm";
+var helpSystemName = "index.html";
 
 //    Syntax:
 //    function MadCap.OpenHelp(id, skinName, searchQuery, firstPick)
@@ -109,8 +109,8 @@ var helpSystemName = "index.htm";
 //    In the following example, topic associated with identifier value 1 will be used. "BlueSkin" will override the skin associated with identifier value 1:
 //    MadCap.OpenHelp(1, 'BlueSkin', null, null);
 //
-//    In the following example, "Company/Employees.htm" will be used with the default skin:
-//    MadCap.OpenHelp('Company/Employees.htm', null, null, null);
+//    In the following example, "Company/Employees.html" will be used with the default skin:
+//    MadCap.OpenHelp('Company/Employees.html', null, null, null);
 //
 //    In the following example, both the default topic and skin will be used:
 //    MadCap.OpenHelp(null, null, null, null);
@@ -128,7 +128,7 @@ var helpSystemName = "index.htm";
 
 (function ()
 {
-var helpSystemName = "index.htm";
+var helpSystemName = "index.html";
 
     MadCap.OpenHelp = function (id, skinName, searchQuery, firstPick, pathToHelpSystem)
     {
